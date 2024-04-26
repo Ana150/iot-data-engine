@@ -9,7 +9,7 @@ class DatabaseParameters:
     db_name: str = 'tks_engine'
     db_user: str = 'root'
     db_password: str = 'root'
-    db_host: str = '172.17.0.1' #default gateway for docker
+    db_host: str = 'localhost' #default gateway for docker
     db_port: str = '3306' #default port for mysql
 
 
